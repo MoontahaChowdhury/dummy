@@ -112,7 +112,9 @@ void iSpecialKeyboard(unsigned char key)
 void ballMove()
 {
 	
-	
+	r = rand() % 255;
+	g = rand() % 255;
+	b = rand() % 255;
 	
 	
 	ballX += dx;
